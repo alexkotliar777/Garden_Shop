@@ -1,0 +1,42 @@
+.container {
+  gap: 52px;
+  align-items: flex-start;
+}
+.title {
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.link {
+  display: flex;
+  color: #000;
+  font-size: 20px;
+  align-items: center;
+  margin-bottom: 34px;
+}
+.arrow {
+  margin-left: 17px;
+  font-size: 17px;
+}
+.emptyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cartImage {
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .link {
+    justify-content: center;
+  }
+  .cartImage {
+    width: 30%;
+  }
+}

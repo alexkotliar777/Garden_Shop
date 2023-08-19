@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.input {
+  height: 75px;
+  border-radius: 25.147px;
+  background: #fff;
+  border: none;
+  padding: 0 50px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.input::placeholder {
+  color: #6c6c6c;
+}
+
+.btn {
+  height: 75px;
+  border-radius: 25.147px;
+  border: 2.395px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+.btn:hover,
+.btn:focus {
+  transform: scale(1.05);
+  transition-duration: 500ms;
+}
+.alarm {
+  position: absolute;
+  top: 82px;
+  left: 5px;
+  color: white;
+}

@@ -1,0 +1,103 @@
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.contactsBlock {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.phone {
+  color: #000;
+  font-size: 40px;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.adressDescription {
+  display: flex;
+  color: #000;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.hours {
+  margin-bottom: 2px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .contacts {
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contactsBlock {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .phone {
+    font-size: 40px;
+  }
+  .address {
+    width: 45%;
+  }
+  .adressDescription {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .phone {
+    font-size: 70px;
+  }
+  .address {
+    width: 45%;
+  }
+  .adressDescription {
+    font-size: 40px;
+  }
+}
+.contactList {
+  display: flex;
+  align-items: center;
+}
+
+.contactItem > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+}
+.contactItem:not(:last-child) {
+  margin-right: 65px;
+}
+
+.contactLogo {
+  font-size: 50px;
+}

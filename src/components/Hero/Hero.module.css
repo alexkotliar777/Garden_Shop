@@ -1,0 +1,74 @@
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hero {
+  background-color: #a1e2eb;
+  /* padding: 100px 0px 0px 50px; */
+}
+
+.title {
+  color: white;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.description {
+  color: white;
+  font-size: 63px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+.link {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 25px 50px;
+  border-radius: 13px;
+  background: #fff;
+}
+
+.link:hover,
+.link:focus {
+  transform: scale(1.05);
+  transition-duration: 500ms;
+}
+
+.backgroundImage {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 80px;
+}
+.img {
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1200px) {
+  .backgroundImage {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+  .img {
+    max-width: 50%;
+  }
+  .descriptionContainer {
+    padding: 80px 0px;
+  }
+}

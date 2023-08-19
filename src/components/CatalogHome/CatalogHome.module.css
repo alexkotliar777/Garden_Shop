@@ -1,0 +1,43 @@
+.titleBlock {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  margin-right: 32px;
+}
+.link {
+  display: inline-block;
+  color: #8b8b8b;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 15px;
+  border: 1px solid #8b8b8b;
+}
+.link:hover,
+.link:focus {
+  transform: scale(1.05);
+  transition-duration: 500ms;
+}
+
+@media screen and (min-width: 768px) {
+  .list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+  .title {
+    margin-right: 102px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .list {
+    display: flex;
+    justify-content: space-between;
+  }
+}

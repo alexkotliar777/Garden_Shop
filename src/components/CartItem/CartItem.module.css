@@ -1,0 +1,136 @@
+.item {
+  border-top: 1px solid #a7a7a7;
+  padding-top: 40px;
+  position: relative;
+}
+
+.img {
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 24px;
+}
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #000;
+  width: 140px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+.quantity {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}
+.btn {
+  color: #000000;
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+}
+
+.btn:hover,
+.btn:focus,
+.close {
+  cursor: pointer;
+}
+.priceBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 180px;
+  margin-right: 15px;
+}
+.price {
+  color: #000;
+  font-size: 40px;
+  font-weight: 600;
+}
+.currency {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+.discont {
+  color: #8b8b8b;
+  font-size: 20px;
+  text-decoration: line-through;
+}
+.btnDelete {
+  display: contents;
+}
+.close {
+  color: #000000;
+  font-size: 30px;
+}
+@media screen and (max-width: 767.8px) {
+  .close {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .infoBox {
+    flex-direction: row;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 24px;
+    width: 350px;
+  }
+  .img {
+    width: 192px;
+    height: 166px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+  }
+  .title {
+    max-width: 318px;
+    margin-bottom: 0px;
+  }
+  .buttons {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .priceBlock {
+    max-width: 205px;
+    margin-right: 36px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .info {
+    width: 295px;
+  }
+}
