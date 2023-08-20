@@ -2,6 +2,7 @@
   "name": "gardenshop",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alexkotliar777.github.io/gardenshop/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.3",
