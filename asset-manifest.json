@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.56437858.css",
-    "main.js": "/static/js/main.d2373cc4.js",
-    "static/media/hero.png": "/static/media/hero.824e4b368ece1254351a.png",
-    "static/media/error.jpg": "/static/media/error.b15db41e8ff13748852d.jpg",
-    "static/media/gnome.png": "/static/media/gnome.c036eea09188ab215dcb.png",
-    "static/media/logo.svg": "/static/media/logo.65921f00b7d8c6031f4b314c1c65a4e4.svg",
-    "static/media/shopping-cart.png": "/static/media/shopping-cart.7033f67421d5e63955d5.png",
-    "index.html": "/index.html",
-    "main.56437858.css.map": "/static/css/main.56437858.css.map",
-    "main.d2373cc4.js.map": "/static/js/main.d2373cc4.js.map"
+    "main.css": "/gardenshop/static/css/main.56437858.css",
+    "main.js": "/gardenshop/static/js/main.983ddafb.js",
+    "static/media/hero.png": "/gardenshop/static/media/hero.824e4b368ece1254351a.png",
+    "static/media/error.jpg": "/gardenshop/static/media/error.b15db41e8ff13748852d.jpg",
+    "static/media/gnome.png": "/gardenshop/static/media/gnome.c036eea09188ab215dcb.png",
+    "static/media/logo.svg": "/gardenshop/static/media/logo.65921f00b7d8c6031f4b314c1c65a4e4.svg",
+    "static/media/shopping-cart.png": "/gardenshop/static/media/shopping-cart.7033f67421d5e63955d5.png",
+    "index.html": "/gardenshop/index.html",
+    "main.56437858.css.map": "/gardenshop/static/css/main.56437858.css.map",
+    "main.983ddafb.js.map": "/gardenshop/static/js/main.983ddafb.js.map"
   },
   "entrypoints": [
     "static/css/main.56437858.css",
-    "static/js/main.d2373cc4.js"
+    "static/js/main.983ddafb.js"
   ]
 }
