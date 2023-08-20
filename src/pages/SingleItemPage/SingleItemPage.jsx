@@ -28,7 +28,7 @@ export default function SingleItemPage() {
                 <img
                   className={css.img}
                   alt={dates.title}
-                  src={`http://gardenshopbackend.onrender.com${dates.image}`}
+                  src={`https://gardenshopbackend.onrender.com${dates.image}`}
                 ></img>
               </div>
               <div className={css.descriptionBox}>
