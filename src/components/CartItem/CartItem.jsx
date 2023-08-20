@@ -43,7 +43,7 @@ export default function CartItem({
       <img
         className={css.img}
         alt={title}
-        src={`http://localhost:3333${image}`}
+        src={`https://gardenshopbackend.onrender.com${image}`}
       ></img>
       <div className={css.infoBox}>
         <div className={css.info}>

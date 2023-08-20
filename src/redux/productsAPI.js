@@ -3,7 +3,9 @@ import { createApi } from '@reduxjs/toolkit/query/react';
 
 export const productsApi = createApi({
   reducerPath: 'productsApi',
-  baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:3333' }),
+  baseQuery: fetchBaseQuery({
+    baseUrl: 'https://gardenshopbackend.onrender.com',
+  }),
   endpoints: builder => ({
     getAllProducts: builder.query({
       query: () => `/products/all`,
@@ -42,5 +44,11 @@ export const productsApi = createApi({
   }),
 });
 
-
-export const { useGetAllProductsQuery, useGetAllCategoriesQuery, useGetProductItemQuery, useGetCategoryItemQuery, useAddPhoneNumberMutation, useAddOrderMutation } = productsApi;
+export const {
+  useGetAllProductsQuery,
+  useGetAllCategoriesQuery,
+  useGetProductItemQuery,
+  useGetCategoryItemQuery,
+  useAddPhoneNumberMutation,
+  useAddOrderMutation,
+} = productsApi;
