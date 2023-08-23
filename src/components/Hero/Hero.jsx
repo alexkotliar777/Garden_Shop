@@ -1,7 +1,7 @@
 import React from 'react';
 import css from './Hero.module.css';
 import Section from 'components/Section/Section';
-import img from '../../images/hero.png';
+import img from '../../images/hero1.png';
 import { NavLink } from 'react-router-dom';
 
 export default function Hero() {
