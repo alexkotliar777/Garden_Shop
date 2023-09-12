@@ -5,8 +5,11 @@ import { useParams } from 'react-router-dom';
 import { useGetProductItemQuery } from 'redux/productsAPI';
 import { useDispatch } from 'react-redux';
 import { addToCartHandler } from 'utils/addToCartHandler';
+import React, { useRef } from 'react';
+
 
 export default function SingleItemPage() {
+
   const { id } = useParams();
 
   const { data, error, isLoading } = useGetProductItemQuery(id);
@@ -15,6 +18,15 @@ export default function SingleItemPage() {
 
   const dispatch = useDispatch();
 
+  const ref = useRef(null);
+  setTimeout(() => {
+    if (ref.current) {
+      ref.current.scrollIntoView({
+        behavior: 'smooth',
+      });
+    }
+  }, 0);
+
   return (
     <>
       {isLoading ? (
@@ -22,7 +34,7 @@ export default function SingleItemPage() {
       ) : (
         <>
           <div className={css.container}>
-            <div className={css.title}>{dates.title}</div>
+            <div ref={ref} className={css.title}>{dates.title}</div>
             <div className={css.block}>
               <div className={css.imgBlock}>
                 <img

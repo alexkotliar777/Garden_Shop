@@ -32,7 +32,6 @@ export default function CartItem({
     dispatch(countTotalQuantity());
   };
   const deleteProducts = () => {
-    console.log('done');
     dispatch(deleteProduct({ id }));
     dispatch(countTotalPrice());
     dispatch(countTotalQuantity());
